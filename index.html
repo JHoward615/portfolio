@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jake Howard — Portfolio</title>
+    <meta name="description" content="Portfolio of Jake Howard — projects in Blender, SolidWorks, Godot, Android, and pixel art." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+      .container-nice { max-width: 1100px; }
+    </style>
+  </head>
+  <body class="bg-gradient-to-b from-white to-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 backdrop-blur bg-white/60 border-b">
+      <nav class="mx-auto container-nice px-4 py-3 flex items-center justify-between">
+        <a href="#top" class="font-extrabold tracking-tight text-lg">JH</a>
+        <div class="flex items-center gap-6 text-sm">
+          <a href="#projects" class="hover:underline underline-offset-4">Projects</a>
+          <a href="#about" class="hover:underline underline-offset-4">About</a>
+          <a href="#contact" class="hover:underline underline-offset-4">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="top" class="mx-auto container-nice px-4 pt-16 pb-10">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="text-sm uppercase tracking-widest text-gray-500">Portfolio</p>
+          <h1 class="mt-2 text-4xl md:text-5xl font-extrabold tracking-tight">Jake Howard</h1>
+          <p class="mt-4 text-lg text-gray-700">Designer • Developer • 3D/2D Artist</p>
+          <p class="mt-3 text-gray-700">Projects spanning Blender environments, SolidWorks assemblies, Godot game prototypes, Android app development, and pixel art.</p>
+          <div class="mt-6 flex gap-3">
+            <a href="#projects" class="inline-flex items-center rounded-xl border px-4 py-2 text-sm font-semibold bg-gray-900 text-white hover:bg-black">View Projects</a>
+            <a href="#contact" class="inline-flex items-center rounded-xl border px-4 py-2 text-sm font-semibold hover:bg-gray-100">Get in Touch</a>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/3] rounded-3xl border shadow-sm bg-gradient-to-br from-gray-100 to-white"></div>
+          <div class="absolute -bottom-4 -left-4 rounded-2xl border bg-white p-3 shadow-md">
+            <p class="text-xs text-gray-600">Built with Tailwind • Single-file deploy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mx-auto container-nice px-4 py-12">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Projects</h2>
+          <p class="mt-1 text-gray-600">A selection of work across 3D modeling, CAD, game design, mobile, and pixel art.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/island-town.jpg" alt="Rendered island town scene created in Blender with stylized buildings and water." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Island Town Scene</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Blender</span></div>
+      <p class="mt-2 text-sm text-gray-700">Environment modeling and rendering practice focused on composition, lighting, and material work.</p>
+      
+    </article>
+    
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/solidworks-bike.jpg" alt="SolidWorks assembly of a bike with custom modeled mechanical components." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Bike Assembly</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">SolidWorks</span></div>
+      <p class="mt-2 text-sm text-gray-700">Modeled individual mechanical components and assembled them into a complete bike.</p>
+      
+    </article>
+    
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/godot-rpg.jpg" alt="Screenshot of a top-down RPG demo built in Godot showing a character in a 2D world." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Top‑Down RPG Demo</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Godot</span><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Audio Design</span></div>
+      <p class="mt-2 text-sm text-gray-700">Gameplay prototype with implemented visuals and audio elements.</p>
+      
+    </article>
+    
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/spotify-wrapped.jpg" alt="Android app UI resembling Spotify Wrapped style showcasing user listening stats." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Spotify Wrapped App</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Android Studio</span></div>
+      <p class="mt-2 text-sm text-gray-700">Data-driven mobile experience inspired by Spotify’s Wrapped. External demo: project site link.</p>
+      <a class="mt-3 inline-flex items-center underline underline-offset-4" href="https://project2group3.weebly.com/" target="_blank" rel="noopener">View demo</a>
+    </article>
+    
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/pixel-character.jpg" alt="Pixel art character sheet showing iterations and refinements." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Pixel Art Character</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Pixel Studio</span></div>
+      <p class="mt-2 text-sm text-gray-700">Concept art with several refinement stages for a game character.</p>
+      
+    </article>
+    
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/coin-collector.jpg" alt="Mobile-friendly 2D game where a character collects coins in levels built with Godot." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Coin Collector Game</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Godot</span><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">Mobile</span></div>
+      <p class="mt-2 text-sm text-gray-700">Designed with mobile constraints in mind, focusing on quick interactions and clear feedback.</p>
+      
+    </article>
+    
+    <article class="group rounded-2xl border p-4 transition hover:shadow-lg bg-white/70 backdrop-blur">
+      <div class="aspect-video w-full overflow-hidden rounded-xl border bg-gradient-to-br from-gray-50 to-gray-100">
+        <img src="assets/images/sky-kayak.jpg" alt="Rendered concept of a futuristic flying kayak designed in SolidWorks." class="h-full w-full object-cover transition group-hover:scale-[1.02]" loading="lazy" />
+      </div>
+      <h3 class="mt-4 text-lg font-semibold">Sci‑Fi Sky‑Kayak</h3>
+      <div class="mt-2 flex flex-wrap gap-2"><span class="px-2 py-1 text-xs rounded-full bg-gray-100 border">SolidWorks</span></div>
+      <p class="mt-2 text-sm text-gray-700">Hard-surface modeling exploration blending industrial design and sci‑fi aesthetics.</p>
+      
+    </article>
+    
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto container-nice px-4 py-12">
+      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">About</h2>
+      <div class="mt-4 max-w-3xl space-y-4 text-gray-800">
+        <p>I'm Jake Howard, a multidisciplinary creator exploring the intersections of engineering, game development, and digital art. I enjoy moving from concept to execution and learning new tools along the way.</p>
+        <p>This site showcases highlights including a Blender island town, SolidWorks assemblies, Godot gameplay prototypes, an Android stats app, and pixel art studies.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mx-auto container-nice px-4 pb-16">
+      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Contact</h2>
+      <div class="mt-4 max-w-2xl text-gray-800">
+        <p>Want to collaborate or see more? Reach out:</p>
+        <ul class="mt-3 space-y-2">
+          <li>Email: <a class="underline underline-offset-4" href="mailto:youremail@example.com">youremail@example.com</a></li>
+          <li>GitHub/LinkedIn/ArtStation: add your links here.</li>
+        </ul>
+      </div>
+      <p class="mt-8 text-xs text-gray-500">© 2025 Jake Howard</p>
+    </section>
+  </body>
+</html>
